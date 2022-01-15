@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "awshackathonapi",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "D:\\Projects\\aws-hackathon\\amplify\\backend\\api\\awshackathonapi\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2023-01-15T15:19:51.425Z",
+      "keyDescription": "aws api key"
+    },
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    }
+  }
+}
